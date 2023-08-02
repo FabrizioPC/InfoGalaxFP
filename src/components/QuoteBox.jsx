@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/QuoteBox.css";
-import ChangePhraseBG from "./changePhraseBG";
+import ChangePhraseBG from "./ChangePhraseBG";
 const QuoteBox = ({ handleChangeQuote, quote }) => {
    return (
       <section className="quoteBox">

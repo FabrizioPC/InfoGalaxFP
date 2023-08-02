@@ -1,8 +1,8 @@
 import { useState } from "react";
 import quotes from "./db/quotes.json";
 import { getRandom } from "./utils/random";
-import "./App.css";
 import QuoteBox from "./components/QuoteBox";
+import "./App.css";
 
 const listBg = ["bg1", "bg2", "bg3", "bg4"];
 function App() {

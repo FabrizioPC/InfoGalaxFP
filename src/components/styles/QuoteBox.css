@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 .quoteBox {
+   font-family: "Orbitron", sans-serif;
    display: grid;
    grid-template-rows: auto 1fr auto;
    min-height: 100vh;
@@ -6,4 +8,23 @@
    width: min(100%, 400px);
    padding: 20px 10px;
    margin: 0 auto;
+   color: white;
+}
+.quoteBox h1 {
+   margin-top: 2rem;
+   font-size: 45px;
+   letter-spacing: 5px;
+}
+.phraseBox {
+   padding: 25px;
+   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.33) 100%);
+   border-radius: 20px;
+   margin-bottom: 100px;
+   color: black;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.reload {
+   cursor: pointer;
 }
